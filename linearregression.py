@@ -63,7 +63,7 @@ for x in range(len(predictions)):
     percError = error / actualGrade
     print(grade, x_test[x], actualGrade, round(error, 2), round(percError, 2), "%")
 
-p = "studytime"
+p = "absences"
 style.use("ggplot")
 pyplot.scatter(data[p], data["G3"])
 pyplot.xlabel(p)
